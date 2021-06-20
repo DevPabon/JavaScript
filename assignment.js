@@ -1,13 +1,11 @@
+//  https://github.com/DevPabon/JavaScript
+
 // Kilometer To Meter
 
 function kilometerToMeter(kilometer){
     var meter = kilometer * 1000
     return meter
 }
-var kilometerInput = kilometerToMeter(8)
-console.log(kilometerInput)
-
-
 
 
 // Budget Calculator
@@ -19,9 +17,6 @@ function budgetCalculator(watch, mobile, laptop){
     var totalPrice = watchPrice + mobilePrice +laptopPrice
     return totalPrice
 }
-
-var result = budgetCalculator(5, 3, 2)
-console.log(result)
 
 
 
@@ -45,8 +40,6 @@ function hotelCost(day){
     }
     return cost
 }
-var result = hotelCost(24)
-console.log(result)
 
 
 
